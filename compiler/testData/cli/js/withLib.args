@@ -1,0 +1,7 @@
+$TESTDATA_DIR$/withLib.kt
+-Xlegacy-deprecated-no-warn
+-Xuse-deprecated-legacy-compiler
+-libraries
+$TESTDATA_DIR$/lib/LibraryExample.jar
+-output
+$TEMP_DIR$/out.js
